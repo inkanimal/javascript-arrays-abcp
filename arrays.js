@@ -1,6 +1,6 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 function addElementToBeginningOfArray(array, element){
-  return chocolateBars[0] = "foo"
+  return chocolateBars[1] = "foo"
 }
 function destructivelyAddElementToBeginningOfArray(array, element){
 
