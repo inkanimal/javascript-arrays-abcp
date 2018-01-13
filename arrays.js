@@ -6,13 +6,15 @@ function destructivelyAddElementToBeginningOfArray(array, element){
    array.unshift(element)
    return array
 }
-function accessElementInArray(array, index){
-  return chocolateBars[2]
-}
+
+
 function addElementToEndOfArray(array, element){
   return [...array, element]
 }
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element)
   return array
+}
+function accessElementInArray(array, index){
+  return chocolateBars[3]
 }
