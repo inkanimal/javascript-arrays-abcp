@@ -3,7 +3,8 @@ function addElementToBeginningOfArray(array, element){
   return [element,...array]
 }
 function destructivelyAddElementToBeginningOfArray(array, element){
-
+   array.upshift(element)
+   return array
 }
 function accessElementInArray(array, index){
   return chocolateBars[2]
